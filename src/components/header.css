@@ -1,16 +1,12 @@
 .headerDiv {
   padding: 20px;
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(66, 66, 66);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
-  /* 
-  position: fixed;
-  top: 0;
-  width: 100%; */
 }
 
 .carShairLogo {
-  max-width: 20%;
+  max-width: 30%;
   height: auto;
   margin: auto;
   display: block;
@@ -25,6 +21,16 @@
   justify-content: space-evenly;
 }
 
-h3 {
-  font-size: 20px;
+a {
+  text-decoration: "none";
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+  font-size: 35px;
+}
+
+headerUl {
+  font-size: 25px;
 }

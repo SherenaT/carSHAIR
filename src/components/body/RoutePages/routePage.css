@@ -1,0 +1,19 @@
+.routePage {
+  padding: 10px 0 200px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  margin: 10px 0;
+  width: 40%;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.value {
+  margin: 10px;
+  font-size: 18px;
+}

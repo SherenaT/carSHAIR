@@ -3,24 +3,18 @@
   border: 15px;
   border-style: double none double none;
   border-color: yellow;
-  /* border-image-source: linear-gradient(to left, yellow, orange); */
-}
-
-.bodyImg {
-  max-width: 90%;
-  max-height: auto;
 }
 
 .slider {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image {
-  width: 100%;
+  width: 95%;
   height: auto;
   border-radius: 10px;
 }
@@ -30,7 +24,7 @@
   top: 50%;
   right: 32px;
   font-size: 3rem;
-  color: rgb(44, 44, 44);
+  color: rgb(66, 66, 66);
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -40,7 +34,7 @@
   top: 50%;
   left: 32px;
   font-size: 3rem;
-  color: rgb(44, 44, 44);
+  color: rgb(66, 66, 66);
   z-index: 10;
   cursor: pointer;
   user-select: none;

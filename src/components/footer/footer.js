@@ -1,5 +1,6 @@
 import React from "react";
 import FooterNav from "./footerNav";
+import "./footer.css";
 
 const footer = () => {
   const handleUnderConstruction = function () {
