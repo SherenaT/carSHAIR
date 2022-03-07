@@ -24,6 +24,9 @@ const header = () => {
           <Link to="/vehicles/GetModelsForYear">
             <li>YEAR</li>
           </Link>
+          <Link to="/vehicles/AllVehicles">
+            <li>INSTOCK VEHICLES</li>
+          </Link>
         </ul>
       </div>
     </div>

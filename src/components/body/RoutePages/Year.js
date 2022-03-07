@@ -8,7 +8,8 @@ const Year = () => {
     <div className="routePage">
       <br></br>
       <h4>
-        Welcome to carSHAiR vehicle year search, please search for a year.
+        Welcome to carSHAiR vehicle year search, please enter year of vehicle
+        you are intested in.
       </h4>
       <input
         className="input"

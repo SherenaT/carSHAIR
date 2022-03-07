@@ -5,6 +5,7 @@ import Footer from "./footer/footer";
 import Make from "./body/RoutePages/Make";
 import Model from "./body/RoutePages/Model";
 import Year from "./body/RoutePages/Year";
+import AllVehicles from "./body/RoutePages/AllVehicles";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const App = () => {
@@ -24,6 +25,9 @@ const App = () => {
           </Route>
           <Route path="/vehicles/GetModelsForYear" exact>
             <Year />
+          </Route>
+          <Route path="/vehicles/AllVehicles" exact>
+            <AllVehicles />
           </Route>
         </Switch>
         <Footer />
